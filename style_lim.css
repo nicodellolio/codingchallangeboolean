@@ -1,0 +1,75 @@
+*{
+    box-sizing: content-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat:no-repeat;
+    background-size: 110%;
+    padding: 5%;
+}
+
+.padre{
+    width: 75%;
+    margin: auto;
+    border: 30px;
+    background-color: rgba(10,10,10,0.5);
+    padding: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header{
+    text-align: center;
+    color: lime;
+    font-size: small;
+}
+
+#logo{
+    width:25%;
+}
+
+.azioni{
+    text-align: center;
+    background-color: lime;
+    padding: 10px;
+} 
+
+main > div{
+    color: white;
+    margin: 0;
+    padding: 2px;
+}
+
+.utente{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.utente:before{
+    content: "\25FC"
+}
+
+div.distanza::before{
+    content: "\21A6";
+}
+
+.carica{
+    height: 30px;
+    border-radius: 10px
+}
+
+#caricamedia{
+    background-color: rgb(250, 202, 114);
+    width: 30%;
+}
+
+#caricaalta{
+    background-color: rgb(112, 181, 8);
+    width: 55%;
+}
+
+#caricabassa{
+    background-color: rgb(232, 61, 41);
+    width: 11%;
+}
